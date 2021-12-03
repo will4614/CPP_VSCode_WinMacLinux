@@ -22,6 +22,8 @@ current test: using Visual Studio Build Tools (cl, nmake)
 
 Git: [Git For Windows](https://git-scm.com/download/win) Not the Portable Install
 
+* Do you need to install Git strictly AFTER VS Build Tools? Maybe
+
 Which is the easiest compiler tool chain for students to install/use on Windows?
 
  * cygwin
