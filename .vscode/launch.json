@@ -1,0 +1,39 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "cl.exe - Build and debug active file",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "console": "externalTerminal",
+            "preLaunchTask": "C/C++: cl.exe build active file"
+        },
+        {
+            "windows": {
+                "program": "${workspaceFolder}/helloWorld.exe",
+                "console": "integratedTerminal" 
+            },
+            "osx": {
+                "program": "${workspaceFolder}/bin/helloWorld",
+                "MIMode": "lldb",   
+            },
+            "name": "Debug",
+            "program": "${workspaceFolder}/bin/helloWorld",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "args": [],
+            "stopAtEntry": true,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "preLaunchTask": "build"
+        }
+    ]
+}
