@@ -2,15 +2,23 @@
 
 ## Mac: 
 
-use built in gcc/llvm and debugger
+Use built in gcc/llvm and debugger: 
+
+* BUILD: WORKING 
+* DEBUG: NOT WORKING
 
 ## Linux: 
 
-use built in gcc/llvm and debugger
+Use built in gcc and debugger
+
+* BUILD: NOT TESTED 
+* DEBUG: NOT TESTED
 
 ## Windows: 
 
 current test: using Visual Studio Build Tools (cl, nmake)
+* BUILD: WORKING 
+* DEBUG: WORKING
 
 Git: [Git For Windows](https://git-scm.com/download/win) Not the Portable Install
 
