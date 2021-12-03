@@ -1,0 +1,30 @@
+#############################################################################
+# File name:  Makefile
+# Author:     chadd williams
+# Date:       Sept 1, 2021
+# Class:      CS360
+# Assignment: 
+# Purpose:    
+#############################################################################
+
+all: bin bin/main
+
+compiler=g++
+
+bin:
+	mkdir -p bin
+
+bin/main: bin/main.o
+	${compiler} -std=c++17 -o bin/main -g -Wall bin/main.o 
+
+bin/main.o: bin helloWorld.cpp
+	${compiler} -std=c++17 -c -o bin/main.o -g -Wall helloWorld.cpp 
+ 
+valgrind: bin/main
+	valgrind -v --leak-check=yes --track-origins=yes --leak-check=full --show-leak-kinds=all bin/main
+
+printMain:
+	enscript -C -T 2 -p - -M Letter -Ec --color -fCourier8 src/main.c  | ps2pdf - bin/main.pdf
+
+clean:
+	rm -f bin/main bin/*.o
