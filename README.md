@@ -5,3 +5,11 @@ Mac: use built in gcc/llvm and debugger
 Linux: use built in gcc/llvm and debugger
 
 Windows: current test: using Visual Studio Build Tools (cl, nmake)
+
+Which is the easiest for students to install/use on Windows?
+
+ * cygwin
+ * mingw
+ * VS Build Tools
+ * msys
+ * ?
