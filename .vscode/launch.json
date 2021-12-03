@@ -17,23 +17,23 @@
             "preLaunchTask": "C/C++: cl.exe build active file"
         },
         {
-            "windows": {
-                "program": "${workspaceFolder}/helloWorld.exe",
-                "console": "integratedTerminal" 
-            },
-            "osx": {
-                "program": "${workspaceFolder}/bin/helloWorld",
-                "MIMode": "lldb",   
-            },
             "name": "Debug",
-            "program": "${workspaceFolder}/bin/helloWorld",
-            "type": "cppvsdbg",
             "request": "launch",
             "args": [],
             "stopAtEntry": true,
             "cwd": "${fileDirname}",
             "environment": [],
-            "preLaunchTask": "build"
+            "type": "cppdbg", // this cannot be in OSX block??
+            "osx": {
+                "MIMode": "lldb",   
+                "program": "${workspaceFolder}/bin/main",
+            },
+            "windows": {
+                "program": "${workspaceFolder}/helloWorld",
+                "type": "cppvsdbg"
+            },
+                "externalConsole": false,
+                "preLaunchTask": "build", // THIS IS IMPORTANT
         }
     ]
 }

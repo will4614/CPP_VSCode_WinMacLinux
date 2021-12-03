@@ -3,7 +3,7 @@
 all: helloWorld.exe
 
 helloWorld.exe: helloWorld.cpp
-	cl.exe  $**
+	cl.exe /Z7 /DEBUG /MTd $**
 
 clean:
 	del *.exe *.obj
