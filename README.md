@@ -1,12 +1,20 @@
 ## C++ in VS Code on Mac, Windows, Linux
 
-Mac: use built in gcc/llvm and debugger
+## Mac: 
 
-Linux: use built in gcc/llvm and debugger
+use built in gcc/llvm and debugger
 
-Windows: current test: using Visual Studio Build Tools (cl, nmake)
+## Linux: 
 
-Which is the easiest for students to install/use on Windows?
+use built in gcc/llvm and debugger
+
+## Windows: 
+
+current test: using Visual Studio Build Tools (cl, nmake)
+
+Git: [Git For Windows](https://git-scm.com/download/win) Not the Portable Install
+
+Which is the easiest compiler tool chain for students to install/use on Windows?
 
  * cygwin
  * mingw
