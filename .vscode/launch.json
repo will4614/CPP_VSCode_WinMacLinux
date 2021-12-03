@@ -17,8 +17,13 @@
                 "program": "${workspaceFolder}/bin/main",
             },
             "linux": {
-                "MIMode": "lldb",   
+                "name": "Debug",
+                "request": "launch",
+                "type":  "cppdbg", // this cannot be in OSX block??
+                "miDebuggerPath": "/usr/bin/gdb",
                 "program": "${workspaceFolder}/bin/main",
+                "externalConsole": false,
+
             },
             "windows": {
                 "program": "${workspaceFolder}/helloWorld",
