@@ -5,26 +5,18 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "cl.exe - Build and debug active file",
-            "type": "cppvsdbg",
-            "request": "launch",
-            "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
-            "args": [],
-            "stopAtEntry": false,
-            "cwd": "${fileDirname}",
-            "environment": [],
-            "console": "externalTerminal",
-            "preLaunchTask": "C/C++: cl.exe build active file"
-        },
-        {
             "name": "Debug",
             "request": "launch",
             "args": [],
             "stopAtEntry": true,
             "cwd": "${fileDirname}",
             "environment": [],
-            "type": "cppdbg", // this cannot be in OSX block??
+            "type":  "cppdbg", // this cannot be in OSX block??
             "osx": {
+                "MIMode": "lldb",   
+                "program": "${workspaceFolder}/bin/main",
+            },
+            "linux": {
                 "MIMode": "lldb",   
                 "program": "${workspaceFolder}/bin/main",
             },
@@ -32,8 +24,8 @@
                 "program": "${workspaceFolder}/helloWorld",
                 "type": "cppvsdbg"
             },
-                "externalConsole": false,
-                "preLaunchTask": "build", // THIS IS IMPORTANT
+            "externalConsole": false,
+            "preLaunchTask": "build", // THIS IS IMPORTANT
         }
     ]
 }
