@@ -2,8 +2,10 @@
 
 all: helloWorld.exe
 
-helloWorld.exe: helloWorld.cpp
-	cl.exe /Z7 /DEBUG /MTd $**
+# possible command line options
+helloWorld.exe: 
+	cl.exe /Z7 /nologo /DEBUG /MTd src/*.cpp
+
 
 clean:
-	del *.exe *.obj
+	del *.exe *.obj *.ilk *.pdb
