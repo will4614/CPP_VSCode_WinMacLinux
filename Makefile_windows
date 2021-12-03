@@ -1,11 +1,13 @@
 # Sample makefile
 
-all: helloWorld.exe
+all: bin bin/helloWorld.exe
+
+bin:
+	mkdir -p bin
 
 # possible command line options
-helloWorld.exe: 
-	cl.exe /Z7 /nologo /DEBUG /MTd src/*.cpp
-
+bin/helloWorld.exe:  bin
+	cl.exe /Z7 /nologo /DEBUG /MTd src/*.cpp /Fe:bin\helloWorld.exe
 
 clean:
-	del *.exe *.obj *.ilk *.pdb
+	del  *.obj bin\*
