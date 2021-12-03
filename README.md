@@ -5,14 +5,14 @@
 Use built in gcc/llvm and debugger: 
 
 * BUILD: WORKING 
-* DEBUG: NOT WORKING
+* DEBUG: WORKING
 
 ## Linux: 
 
 Use built in gcc and debugger
 
-* BUILD: NOT TESTED 
-* DEBUG: NOT TESTED
+* BUILD: WORKING
+* DEBUG: WORKING
 
 ## Windows: 
 
