@@ -29,5 +29,31 @@
                 "$gcc"
             ]
         }
+        ,
+        {
+            "label": "clean",
+            "type": "shell",
+            "windows": {
+                "command": "nmake",
+                "args": ["/f","Makefile_windows", "clean"]
+            },
+            "linux": {
+                "command": "make",
+                "args": ["--file=Makefile_linux", "clean"],
+            },
+            "osx": {
+                "command": "make",
+                "args": ["--file=Makefile_linux", "clean"],
+            },
+
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$msCompile",
+                "$gcc"
+            ]
+        }
+
     ]
 }
