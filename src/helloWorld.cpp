@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector> 
 #include <string>
+#include "../include/goodBye.h""
 
 using namespace std;
 
@@ -13,4 +14,5 @@ int main()
         cout << word << " ";
     }
     cout << endl;
+    goodBye();
 }

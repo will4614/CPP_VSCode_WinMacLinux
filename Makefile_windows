@@ -6,7 +6,7 @@ bin:
 	mkdir bin
 
 # possible command line options
-bin/helloWorld.exe:  bin
+bin/helloWorld.exe:  bin src/*.cpp include/*.h
 	cl.exe /Z7 /nologo /DEBUG /MTd src/*.cpp  /Fo:bin\ /Fe:bin\helloWorld.exe
 
 clean:
