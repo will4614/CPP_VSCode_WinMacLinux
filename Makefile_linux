@@ -14,11 +14,11 @@ compiler=g++
 bin:
 	mkdir -p bin
 
-bin/main: bin/main.o
-	${compiler} -std=c++17 -o bin/main -g -Wall bin/main.o 
+bin/main: bin src/*.cpp include/*.h
+	${compiler} -std=c++17 -o bin/main -g -Wall src/*.cpp
 
-bin/main.o: bin src/helloWorld.cpp
-	${compiler} -std=c++17 -c -o bin/main.o -g -Wall src/helloWorld.cpp 
+#bin/main.o: bin src/helloWorld.cpp
+#	${compiler} -std=c++17 -c -o bin/main.o -g -Wall src/helloWorld.cpp 
  
 valgrind: bin/main
 	valgrind -v --leak-check=yes --track-origins=yes --leak-check=full --show-leak-kinds=all bin/main

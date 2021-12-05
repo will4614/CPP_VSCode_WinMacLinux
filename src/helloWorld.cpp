@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector> 
 #include <string>
-#include "../include/goodBye.h""
+#include "../include/goodBye.h"
 
 using namespace std;
 
