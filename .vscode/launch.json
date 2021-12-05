@@ -12,6 +12,7 @@
             "cwd": "${fileDirname}",
             "environment": [],
             "type":  "cppdbg", // this cannot be in OSX block??
+            "program": "${workspaceFolder}/bin/main", // warnings if no default is given
             "osx": {
                 "MIMode": "lldb",   
                 "program": "${workspaceFolder}/bin/main",
