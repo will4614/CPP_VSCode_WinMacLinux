@@ -48,6 +48,6 @@ Which is the easiest compiler tool chain for students to install/use on Windows?
  * ?
 
 ## Notes
-[Using CLANG](https://code.visualstudio.com/docs/cpp/config-clang-mac)
-[Run Without Debuggin](https://github.com/microsoft/vscode-cpptools/issues/1201)
-[Setup VS Code for C++ (iffy)](https://gourav.io/blog/setup-vscode-to-run-debug-c-cpp-code)
+* [Using CLANG](https://code.visualstudio.com/docs/cpp/config-clang-mac)
+* [Run Without Debuggin](https://github.com/microsoft/vscode-cpptools/issues/1201)
+* [Setup VS Code for C++ (iffy)](https://gourav.io/blog/setup-vscode-to-run-debug-c-cpp-code)
