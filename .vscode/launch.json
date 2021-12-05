@@ -22,7 +22,7 @@
 
             },
             "windows": {
-                "program": "${workspaceFolder}/helloWorld",
+                "program": "${workspaceFolder}/bin/helloWorld",
                 "type": "cppvsdbg"
             },
             "externalConsole": false,
