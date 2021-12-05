@@ -57,3 +57,4 @@ Which is the easiest compiler tool chain for students to install/use on Windows?
 * [Launch.json schema](https://docs.microsoft.com/en-us/cpp/build/launch-vs-schema-reference-cpp?view=msvc-170)
 * [tasks.json schema](https://code.visualstudio.com/docs/editor/tasks-appendix)
 * [MinGW](https://code.visualstudio.com/docs/cpp/config-mingw)
+* [External tools and tasks](https://code.visualstudio.com/docs/editor/tasks)
