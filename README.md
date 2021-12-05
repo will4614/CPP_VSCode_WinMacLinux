@@ -4,6 +4,7 @@
 F5: Start Debugging (works)
 
 Control-F5: Start without Debugging (works WINDOWS, not working MAC, output shows up in *DEBUG CONSOLE*)
+
 [Not sure if this should work](https://github.com/microsoft/vscode-cpptools/issues/1201)
 
 Control-Shift-B: Build (works)
