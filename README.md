@@ -52,3 +52,8 @@ Which is the easiest compiler tool chain for students to install/use on Windows?
 * [Using CLANG](https://code.visualstudio.com/docs/cpp/config-clang-mac)
 * [Run Without Debuggin](https://github.com/microsoft/vscode-cpptools/issues/1201)
 * [Setup VS Code for C++ (iffy)](https://gourav.io/blog/setup-vscode-to-run-debug-c-cpp-code)
+* [Debugging in VS Code](https://code.visualstudio.com/docs/editor/debugging)
+* [Configuring Debugging](https://code.visualstudio.com/docs/cpp/launch-json-reference)
+* [Launch.json schema](https://docs.microsoft.com/en-us/cpp/build/launch-vs-schema-reference-cpp?view=msvc-170)
+* [tasks.json schema](https://code.visualstudio.com/docs/editor/tasks-appendix)
+* [MinGW](https://code.visualstudio.com/docs/cpp/config-mingw)
