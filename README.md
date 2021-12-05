@@ -3,7 +3,7 @@
 ## Commands:
 F5: Start Debugging (works)
 
-Control-F5: Start without Debugging (NOT WORKING)
+Control-F5: Start without Debugging (works, output shows up in *DEBUG CONSOLE*)
 
 Control-Shift-B: Build (works)
 
