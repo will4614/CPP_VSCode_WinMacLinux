@@ -7,7 +7,7 @@ bin:
 
 # possible command line options
 bin/helloWorld.exe:  bin
-	cl.exe /Z7 /nologo /DEBUG /MTd src/*.cpp /Fe:bin\helloWorld.exe
+	cl.exe /Z7 /nologo /DEBUG /MTd src/*.cpp  /Fo:bin\ /Fe:bin\helloWorld.exe
 
 clean:
-	del  /Q *.obj bin\*
+	del  /Q  bin\*
