@@ -10,4 +10,4 @@ bin/helloWorld.exe:  bin
 	cl.exe /Z7 /nologo /DEBUG /MTd src/*.cpp /Fe:bin\helloWorld.exe
 
 clean:
-	del  *.obj bin\*
+	del  /Q *.obj bin\*
