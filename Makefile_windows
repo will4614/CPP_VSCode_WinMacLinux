@@ -3,7 +3,7 @@
 all: bin bin/helloWorld.exe
 
 bin:
-	mkdir -p bin
+	mkdir bin
 
 # possible command line options
 bin/helloWorld.exe:  bin
