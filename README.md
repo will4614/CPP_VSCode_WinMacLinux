@@ -1,5 +1,14 @@
 ## C++ in VS Code on Mac, Windows, Linux
 
+## Commands:
+F5: Start Debugging (works)
+
+Control-F5: Start without Debugging (NOT WORKING)
+
+Control-Shift-B: Build (works)
+
+Terminal | Run task | clean (works, calls *make clean*)
+
 ## Mac: 
 
 Use built in gcc/llvm and debugger: 
