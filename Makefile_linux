@@ -26,5 +26,7 @@ valgrind: bin/main
 printMain:
 	enscript -C -T 2 -p - -M Letter -Ec --color -fCourier8 src/main.c  | ps2pdf - bin/main.pdf
 
+runMe: bin/main
+	bin/main
 clean:
 	rm -f bin/main bin/*.o

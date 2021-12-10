@@ -6,17 +6,23 @@
             "type": "shell",
             "windows": {
                 "command": "nmake",
-                "args": ["/f","Makefile_windows"]
+                "args": [
+                    "/f",
+                    "Makefile_windows"
+                ]
             },
             "linux": {
                 "command": "make",
-                "args": ["--file=Makefile_linux"],
+                "args": [
+                    "--file=Makefile_linux"
+                ]
             },
             "osx": {
                 "command": "make",
-                "args": ["--file=Makefile_linux"],
+                "args": [
+                    "--file=Makefile_linux"
+                ]
             },
-
             "options": {
                 "cwd": "${workspaceFolder}"
             },
@@ -28,24 +34,65 @@
                 "$msCompile",
                 "$gcc"
             ]
-        }
-        ,
+        },
         {
             "label": "clean",
             "type": "shell",
             "windows": {
                 "command": "nmake",
-                "args": ["/f","Makefile_windows", "clean"]
+                "args": [
+                    "/f",
+                    "Makefile_windows",
+                    "clean"
+                ]
             },
             "linux": {
                 "command": "make",
-                "args": ["--file=Makefile_linux", "clean"],
+                "args": [
+                    "--file=Makefile_linux",
+                    "clean"
+                ]
             },
             "osx": {
                 "command": "make",
-                "args": ["--file=Makefile_linux", "clean"],
+                "args": [
+                    "--file=Makefile_linux",
+                    "clean"
+                ]
             },
-
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$msCompile",
+                "$gcc"
+            ]
+        },
+        {
+            "label": "runMe",
+            "type": "shell",
+            "windows": {
+                "command": "nmake",
+                "args": [
+                    "/f",
+                    "Makefile_windows",
+                    "runMe"
+                ]
+            },
+            "linux": {
+                "command": "make",
+                "args": [
+                    "--file=Makefile_linux",
+                    "runMe"
+                ]
+            },
+            "osx": {
+                "command": "make",
+                "args": [
+                    "--file=Makefile_linux",
+                    "runMe"
+                ]
+            },
             "options": {
                 "cwd": "${workspaceFolder}"
             },
@@ -54,6 +101,5 @@
                 "$gcc"
             ]
         }
-
     ]
 }
