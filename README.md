@@ -73,6 +73,6 @@ keybindings.json:
   }
   ```
   
-  Create a *runMe* task in *tasks.json* which calls the correct Makefile to build and run the executable. 
+  Create a *runMe* task in *[tasks.json](.vscode/tasks.json#L72)* which calls the correct [Makefile](Makefile_linux#L29) to build and run the executable. 
   
   Note that keybindings are a *per user* setting, not a per project setting.
