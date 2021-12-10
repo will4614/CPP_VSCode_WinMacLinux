@@ -15,7 +15,7 @@ bin:
 	mkdir -p bin
 
 bin/main: bin src/*.cpp include/*.h
-	${compiler} -std=c++17 -o bin/main -g -Wall src/*.cpp
+	${compiler} -std=c++17 -o bin/main -g -Wall src/*.cpp -Iinclude
 
 #bin/main.o: bin src/helloWorld.cpp
 #	${compiler} -std=c++17 -c -o bin/main.o -g -Wall src/helloWorld.cpp 
@@ -28,5 +28,6 @@ printMain:
 
 runMe: bin/main
 	bin/main
+	
 clean:
 	rm -f bin/main bin/*.o

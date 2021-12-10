@@ -7,7 +7,7 @@ bin:
 
 # possible command line options
 bin/helloWorld.exe:  bin src/*.cpp include/*.h
-	cl.exe /Z7 /nologo  /EHsc /DEBUG /MTd src/*.cpp  /Fo:bin\ /Fe:bin\helloWorld.exe
+	cl.exe /Z7 /nologo  /Iinclude /EHsc /DEBUG /MTd src/*.cpp  /Fo:bin\ /Fe:bin\helloWorld.exe
 
 runMe: bin/helloWorld.exe
 	bin/helloWorld.exe
