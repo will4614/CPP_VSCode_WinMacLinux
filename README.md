@@ -58,3 +58,21 @@ Which is the easiest compiler tool chain for students to install/use on Windows?
 * [tasks.json schema](https://code.visualstudio.com/docs/editor/tasks-appendix)
 * [MinGW](https://code.visualstudio.com/docs/cpp/config-mingw)
 * [External tools and tasks](https://code.visualstudio.com/docs/editor/tasks)
+
+## [Key bindings](https://code.visualstudio.com/docs/getstarted/keybindings#_default-keybindings)
+
+You can use key bindings to provide the not working Ctrl-F5 Start without Debugging feature:
+
+keybindings.json:
+```
+  {
+    "key": "Ctrl+F5",
+    "command": "workbench.action.tasks.runTask",
+    "args": "runMe",
+    "when": "!inDebugMode"
+  }
+  ```
+  
+  Create a *runMe* task in *tasks.json* which calls the correct Makefile to build and run the executable. 
+  
+  Note that keybindings are a *per user* setting, not a per project setting.
