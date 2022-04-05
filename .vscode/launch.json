@@ -9,7 +9,7 @@
             "request": "launch",
             "args": [],
             "stopAtEntry": true,
-            "cwd": "${fileDirname}",
+            "cwd": "${fileDirname}",  // ${workspaceFolder}
             "environment": [],
             "type":  "cppdbg", // this cannot be in OSX block??
             "program": "${workspaceFolder}/bin/main", // warnings if no default is given
