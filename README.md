@@ -17,6 +17,8 @@ Use built in gcc/llvm and debugger:
 
 * BUILD: WORKING 
 * DEBUG: WORKING
+* Need to install https://github.com/vadimcn/vscode-lldb
+* stopAtEntry not working, set your own breakpoint in main()
 
 ## Linux: 
 
