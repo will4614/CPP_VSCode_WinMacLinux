@@ -1,16 +1,16 @@
 # Sample makefile
 
-all: bin bin/helloWorld.exe
+all: bin bin/main.exe
 
 bin:
 	mkdir bin
 
 # possible command line options
-bin/helloWorld.exe:  bin src/*.cpp include/*.h
-	cl.exe /Z7 /nologo  /Iinclude /EHsc /DEBUG /MTd src/*.cpp  /Fo:bin\ /Fe:bin\helloWorld.exe
+bin/main.exe:  bin src/*.cpp include/*.h
+	cl.exe /Z7 /nologo  /Iinclude /EHsc /DEBUG /MTd src/*.cpp  /Fo:bin\ /Fe:bin\main.exe
 
-runMe: bin/helloWorld.exe
-	bin/helloWorld.exe
+runMe: bin/main.exe
+	bin/main.exe
 	
 clean:
 	del  /Q   bin\*.exe bin\*.ilk bin\*.pdb bin\*.obj
