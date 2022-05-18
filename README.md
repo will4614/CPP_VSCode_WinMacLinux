@@ -1,5 +1,7 @@
 ## C++ in VS Code on Mac, Windows, Linux
 
+### Make sure your set the platform correctly on the bottom right of the VS Code window.
+
 ## Commands:
 F5: Start Debugging (works)
 
