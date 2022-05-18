@@ -30,4 +30,4 @@ runMe: bin/main
 	bin/main
 	
 clean:
-	rm -f bin/main bin/*.o
+	rm -rf bin/main bin/*.o bin/main.dSYM
