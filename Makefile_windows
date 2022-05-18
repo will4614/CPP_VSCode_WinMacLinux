@@ -13,4 +13,4 @@ runMe: bin/helloWorld.exe
 	bin/helloWorld.exe
 	
 clean:
-	del  /Q  bin\*
+	del  /Q   bin\*.exe bin\*.ilk bin\*.pdb bin\*.obj
