@@ -15,6 +15,7 @@
             "program": "${workspaceFolder}/bin/main", // warnings if no default is given
             "osx": {
                 "MIMode": "lldb",   
+                "type" : "lldb", // install CodeLLDB
                 "program": "${workspaceFolder}/bin/main",
             },
             "linux": {
