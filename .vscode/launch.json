@@ -13,7 +13,7 @@
             "environment": [],
             "type":  "cppdbg", // this cannot be in OSX block??
             "program": "${workspaceFolder}/bin/main", // warnings if no default is given
-            "externalConsole": false,
+            "console": "integratedTerminal",
             "osx": {
                 "MIMode": "lldb",   
                 "type" : "lldb", // install CodeLLDB
@@ -27,7 +27,6 @@
             "windows": {
                 "program": "${workspaceFolder}/bin/main.exe",
                 "type": "cppvsdbg",
-                "externalConsole": true,
             },
             "preLaunchTask": "build", // THIS IS IMPORTANT
         }
