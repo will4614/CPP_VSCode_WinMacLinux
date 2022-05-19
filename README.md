@@ -34,6 +34,8 @@ Use built in gcc and debugger
 current test: using Visual Studio Build Tools (cl, nmake)
 * BUILD: WORKING 
 * DEBUG: WORKING
+* Set up debug console correctly : https://github.com/microsoft/vscode-cpptools/pull/6794
+* ```lauch.json```: ```"console": "integratedTerminal",```  Works on all platforms.
 
 Git: [Git For Windows](https://git-scm.com/download/win) Not the Portable Install
 
