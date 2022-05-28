@@ -67,6 +67,10 @@ Which is the easiest compiler tool chain for students to install/use on Windows?
 * [MinGW](https://code.visualstudio.com/docs/cpp/config-mingw)
 * [External tools and tasks](https://code.visualstudio.com/docs/editor/tasks)
 
+## Git
+* [Set local .gitconfig per directory](https://stackoverflow.com/questions/21307793/set-git-config-values-for-all-child-folders/48088291#48088291)
+* [Use two GitHub accounts/SSH Keys on one computer](https://gist.github.com/aprilmintacpineda/f101bf5fd34f1e6664497cf4b9b9345f))
+
 ## [Key bindings](https://code.visualstudio.com/docs/getstarted/keybindings#_default-keybindings)
 
 You can use key bindings to provide the not working Ctrl-F5 Start without Debugging feature:
