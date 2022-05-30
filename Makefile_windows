@@ -7,7 +7,7 @@ bin:
 
 # possible command line options
 bin/main.exe:  bin src/*.cpp include/*.h
-	cl.exe /Z7 /nologo  /Iinclude /EHsc /DEBUG /MTd src/*.cpp  /Fo:bin\ /Fe:bin\main.exe
+	cl.exe /std:c++20 /Z7 /nologo  /Iinclude /EHsc /DEBUG /MTd src/*.cpp  /Fo:bin\ /Fe:bin\main.exe
 
 runMe: bin/main.exe
 	bin/main.exe
