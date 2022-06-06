@@ -9,7 +9,7 @@ bin/*.o
 bin/*.exe
 bin/*.obj
 **/*.pdf
-
+**/*.PDF
 
 # User-specific files
 *.rsuser
