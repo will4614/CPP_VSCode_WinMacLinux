@@ -28,6 +28,7 @@ Use built in gcc and debugger
 
 * BUILD: WORKING
 * DEBUG: WORKING
+* If you want to use clang++ on linux make sure you have [libstdc++ installed correctly.](https://stackoverflow.com/a/66163184)
 
 ## Windows: 
 
