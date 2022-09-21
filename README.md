@@ -29,6 +29,7 @@ Use built in gcc and debugger
 * BUILD: WORKING
 * DEBUG: WORKING
 * If you want to use clang++ on linux make sure you have [libstdc++ installed correctly.](https://stackoverflow.com/a/66163184)
+* gdb on Linux won't step into functions/run in functions [reliably](https://github.com/microsoft/vscode-cpptools/issues/3648)
 
 ## Windows: 
 
@@ -56,6 +57,7 @@ Which is the easiest compiler tool chain for students to install/use on Windows?
  * ?
 
 ## Notes
+* [lldb should debug gcc compiled code](https://aaronbloomfield.github.io/pdr/docs/gdb_vs_lldb.html)
 * [vscode-cpptools](https://github.com/microsoft/vscode-cpptools#quick-links)
 * [C++ on Windows](https://code.visualstudio.com/docs/cpp/config-msvc)
 * [Using CLANG](https://code.visualstudio.com/docs/cpp/config-clang-mac)
