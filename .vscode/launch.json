@@ -29,6 +29,19 @@
                 "type": "cppvsdbg",
             },
             "preLaunchTask": "build", // THIS IS IMPORTANT
+        },
+        {
+            "name": "lldb - debug",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder}",  
+            "environment": [],
+            "type":  "lldb", // install CodeLLDB
+            "program": "${workspaceFolder}/bin/main", // warnings if no default is given
+            "console": "integratedTerminal",
+            "MIMode": "lldb",   
+            "program": "${workspaceFolder}/bin/main",
+            "preLaunchTask": "build", // THIS IS IMPORTANT
         }
     ]
 }
