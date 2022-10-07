@@ -21,6 +21,8 @@ Use built in gcc/llvm and debugger:
 * DEBUG: WORKING
 * Need to install https://github.com/vadimcn/vscode-lldb
 * stopAtEntry not working, set your own breakpoint in main()
+* [Freezes on Mac?](https://github.com/microsoft/vscode/issues/145387)
+* [lldb-mi occasionally freezes on Mac](https://github.com/microsoft/vscode-cpptools/issues/7240)
 
 ## Linux: 
 
