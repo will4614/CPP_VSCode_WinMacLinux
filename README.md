@@ -59,6 +59,7 @@ Which is the easiest compiler tool chain for students to install/use on Windows?
  * ?
 
 ## Notes
+* [View pointer as array in debugger](https://github.com/microsoft/vscode-cpptools/issues/172#issuecomment-1281804128)
 * [Using expressions in the watch panel with LLDB](https://github.com/vadimcn/vscode-lldb/blob/master/MANUAL.md#native-expressions)
 * [lldb should debug gcc compiled code](https://aaronbloomfield.github.io/pdr/docs/gdb_vs_lldb.html)
 * [vscode-cpptools](https://github.com/microsoft/vscode-cpptools#quick-links)
