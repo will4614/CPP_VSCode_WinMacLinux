@@ -15,8 +15,11 @@ compiler=g++
 # clang
 #CPP_VERSION=c++2a
 
-# g++ 
-CPP_VERSION=c++20
+# g++
+# Version 10 or later
+# CPP_VERSION=c++20
+# Version 9 or earlier (Codespaces)
+CPP_VERSION=c++2a
 
 bin:
 	mkdir -p bin
