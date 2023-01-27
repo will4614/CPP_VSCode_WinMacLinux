@@ -79,6 +79,7 @@ Which is the easiest compiler tool chain for students to install/use on Windows?
 * [External tools and tasks](https://code.visualstudio.com/docs/editor/tasks)
 * [C++20 in Visual Studio Compiler](https://devblogs.microsoft.com/cppblog/msvc-cpp20-and-the-std-cpp20-switch/)
 * [Configure default terminal in VS Code](https://code.visualstudio.com/docs/terminal/profiles)
+* [Working example of Configure default terminal in VS Code. Set args like in tasks.json to invoke VSDevCmd.bat](https://github.com/microsoft/vscode/issues/122355#issuecomment-833086902)
 
 ## Git
 * [Set local .gitconfig per directory](https://stackoverflow.com/questions/21307793/set-git-config-values-for-all-child-folders/48088291#48088291)
