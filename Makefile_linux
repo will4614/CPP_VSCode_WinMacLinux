@@ -12,10 +12,13 @@ all: bin bin/main
 #compiler=clang++
 compiler=g++
 
-# clang
-#CPP_VERSION=c++2a
+# clang (Mac)
+# Version 10 or later
+# CPP_VERSION=c++20
+# Version 9 or earlier
+# CPP_VERSION=c++2a
 
-# g++
+# g++ (Linux)
 # Version 10 or later
 # CPP_VERSION=c++20
 # Version 9 or earlier (Codespaces)
