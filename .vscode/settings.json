@@ -75,7 +75,7 @@
     "queue": "cpp",
     "stack": "cpp"
   },
-  
+ /*  
   "terminal.integrated.profiles.windows": {
     "Dev Command Prompt": {
       "path": [
@@ -93,5 +93,5 @@
       "icon": "terminal-cmd"
     },
   },
-  "terminal.integrated.defaultProfile.windows":"Dev Command Prompt"
+  "terminal.integrated.defaultProfile.windows":"Dev Command Prompt" */
 }

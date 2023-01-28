@@ -10,6 +10,7 @@
 #include <iostream>
 #include <vector> 
 #include <string>
+#include <sstream>
 
 //***************************************************************************
 // Function:    main
@@ -22,6 +23,7 @@
 //***************************************************************************
 int main()
 {
-    std::cout << "hi";  
+    std::string cMessage = "hi!";
+    std::cout << ">> " << cMessage << " << " << std::endl;  
     return EXIT_SUCCESS;
 }
