@@ -58,6 +58,11 @@ Which is the easiest compiler tool chain for students to install/use on Windows?
  * msys
  * ?
 
+## Codespaces
+* This repository contains a custom container that installs enscript and ghostscript to easily print source code
+* Students can run ```make -f Makefile_linux printAll``` to print the code to bin/src.pdf. 
+* Students can then Right Click on src.pdf and download the PDF locally
+
 ## Notes
 * [View pointer as array in debugger](https://github.com/microsoft/vscode-cpptools/issues/172#issuecomment-1281804128)
   *   For LLDB:
