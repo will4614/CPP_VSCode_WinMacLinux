@@ -9,6 +9,9 @@
 
 all: bin bin/main
 
+ENCSRIPT_FLAGS=-C -T 2 -p - -M Letter -Ecpp --color -fCourier8
+VALGRIND_FLAGS=-v --leak-check=yes --track-origins=yes --leak-check=full --show-leak-kinds=all 
+
 #compiler=clang++
 compiler=g++
 
@@ -34,13 +37,13 @@ bin/main: bin src/*.cpp include/*.h
 #	${compiler} -std=c++20 -c -o bin/main.o -g -Wall src/helloWorld.cpp 
  
 valgrind: bin/main
-	valgrind -v --leak-check=yes --track-origins=yes --leak-check=full --show-leak-kinds=all bin/main
+	valgrind ${VALGRIND_FLAGS} bin/main
 
-printMain:
-	enscript -C -T 2 -p - -M Letter -Ec --color -fCourier8 src/main.c  | ps2pdf - bin/main.pdf
+printAll:
+	enscript ${ENCSRIPT_FLAGS} src/*.cpp include/*.h  | ps2pdf - bin/src.pdf
 
 runMe: bin/main
 	bin/main
 	
 clean:
-	rm -rf bin/main bin/*.o bin/main.dSYM
+	rm -rf bin/main bin/*.o bin/main.dSYM bin/*.pdf
