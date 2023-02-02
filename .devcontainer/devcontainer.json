@@ -7,6 +7,14 @@
 	},
 	"features": {
 		"ghcr.io/devcontainers-contrib/features/dprint-asdf:2": {}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"vadimcn.vscode-lldb",
+				"ms-vscode.cpptools-extension-pack"
+			]
+		}
 	}
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
