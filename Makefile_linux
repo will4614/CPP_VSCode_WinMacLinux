@@ -9,7 +9,7 @@
 
 all: bin bin/main
 
-ENCSRIPT_FLAGS=-C -T 2 -p - -M Letter -Ecpp --color -fCourier8
+ENSCRIPT_FLAGS=-C -T 2 -p - -M Letter -Ecpp --color -fCourier8
 VALGRIND_FLAGS=-v --leak-check=yes --track-origins=yes --leak-check=full --show-leak-kinds=all 
 
 #compiler=clang++
@@ -40,7 +40,7 @@ valgrind: bin/main
 	valgrind ${VALGRIND_FLAGS} bin/main
 
 printAll:
-	enscript ${ENCSRIPT_FLAGS} src/*.cpp include/*.h  | ps2pdf - bin/src.pdf
+	enscript ${ENSCRIPT_FLAGS} src/*.cpp include/*.h  | ps2pdf - bin/src.pdf
 
 runMe: bin/main
 	bin/main
