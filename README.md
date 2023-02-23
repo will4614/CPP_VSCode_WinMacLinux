@@ -40,6 +40,7 @@ current test: using Visual Studio Build Tools (cl, nmake)
 * DEBUG: WORKING
 * Set up debug console correctly : https://github.com/microsoft/vscode-cpptools/pull/6794
 * ```lauch.json```: ```"console": "integratedTerminal",```  Works on all platforms.
+* If the VS Build Tools are installed in Program Files x86, edit ```intelliSenseMode``` in c_cpp_properties.json to be ```windows-msvc-x86```
 
 Git: [Git For Windows](https://git-scm.com/download/win) Not the Portable Install
 
