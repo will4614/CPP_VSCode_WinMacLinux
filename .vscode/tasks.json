@@ -19,6 +19,15 @@
   },
     "tasks": [
         {
+            "label": "printToPDF",
+            "type": "shell",
+            "command": "enscript -C -T 2 -p - -M Letter -Ecpp --color -fCourier8 src/*.cpp include/*.h | ps2pdf - bin/src.pdf",
+            "group": {
+                "kind": "none"
+            },
+            "problemMatcher": []
+        },
+        {
             "label": "build",
             "type": "shell",
             "windows": {
