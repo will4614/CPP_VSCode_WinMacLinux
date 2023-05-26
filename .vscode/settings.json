@@ -94,5 +94,8 @@
       "icon": "terminal-cmd"
     },
   },
-  "terminal.integrated.defaultProfile.windows":"Dev Command Prompt"
+  "terminal.integrated.defaultProfile.windows":"Dev Command Prompt",
+  "editor.tabSize": 2,
+  "files.autoSave": "afterDelay",
+  "editor.insertSpaces": false
 }

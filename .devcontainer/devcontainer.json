@@ -12,7 +12,8 @@
 		"vscode": {
 			"extensions": [
 				"vadimcn.vscode-lldb",
-				"ms-vscode.cpptools-extension-pack"
+				"ms-vscode.cpptools-extension-pack",
+				"mathematic.vscode-pdf"
 			]
 		}
 	}
