@@ -98,4 +98,22 @@
   "editor.tabSize": 2,
   "files.autoSave": "afterDelay",
   "editor.insertSpaces": false
+  
+    "editor.rulers": [80],
+    "files.eol": "\n",
+    "C_Cpp.formatting": "vcFormat",
+    "C_Cpp.vcFormat.space.beforeFunctionOpenParenthesis": "insert",
+    "C_Cpp.vcFormat.space.beforeLambdaOpenParenthesis": true,
+    "C_Cpp.vcFormat.space.beforeInitializerListOpenBrace": true,
+    "C_Cpp.vcFormat.newLine.beforeOpenBrace.block": "sameLine",
+    "C_Cpp.vcFormat.newLine.beforeOpenBrace.function": "sameLine",
+    "C_Cpp.vcFormat.newLine.beforeOpenBrace.lambda": "sameLine",
+    "C_Cpp.vcFormat.newLine.beforeOpenBrace.namespace": "sameLine",
+    "C_Cpp.vcFormat.newLine.beforeOpenBrace.type": "sameLine",
+    "C_Cpp.vcFormat.space.aroundAssignmentOperator": "insert",
+    "C_Cpp.vcFormat.space.aroundBinaryOperator": "insert",
+    "C_Cpp.vcFormat.space.aroundTernaryOperator": "insert",
+    "C_Cpp.vcFormat.space.afterCastCloseParenthesis": true,
+    "C_Cpp.vcFormat.space.afterComma": true,
+
 }
