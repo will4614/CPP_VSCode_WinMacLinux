@@ -65,6 +65,7 @@ Which is the easiest compiler tool chain for students to install/use on Windows?
 * Students can then Right Click on src.pdf and download the PDF locally
 
 ## Notes
+* [GDB to LLDB Command Mapping](https://lldb.llvm.org/use/map.html)
 * [View pointer as array in debugger](https://github.com/microsoft/vscode-cpptools/issues/172#issuecomment-1281804128)
   *   For LLDB:
 	  * `/nat *(int(*)[13])pIntArray`
