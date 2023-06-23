@@ -2,6 +2,12 @@
 
 ### Make sure your set the platform correctly on the bottom right of the VS Code window.
 
+### Code Formatting
+Apply the coding standards via:
+* Windows: ```SHIFT + ALT + F```
+* Mac: ```SHIFT + OPTION + F```
+* Linux: ```CTRL + SHIFT + I```
+  
 ## Commands:
 F5: Start Debugging (works)
 
