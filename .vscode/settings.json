@@ -116,7 +116,7 @@
     "C_Cpp.vcFormat.space.afterCastCloseParenthesis": true,
     "C_Cpp.vcFormat.space.afterComma": true,
     // uncomment the following line if you have trouble typing
-    // in the terminal in Codespaces. (What you type does no appear) 
+    // in the terminal in Codespaces. (What you type does not appear) 
     // https://github.com/orgs/community/discussions/4760
     //"terminal.integrated.gpuAcceleration": "off",
 
