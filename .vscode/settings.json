@@ -97,7 +97,8 @@
   "terminal.integrated.defaultProfile.windows":"Dev Command Prompt",
   "editor.tabSize": 2,
   "files.autoSave": "afterDelay",
-  "editor.insertSpaces": false
+  "editor.insertSpaces": false,
+  "editor.detectIndentation": false,
   
     "editor.rulers": [80],
     "files.eol": "\n",
