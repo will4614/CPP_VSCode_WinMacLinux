@@ -42,6 +42,9 @@
             "MIMode": "lldb",   
             "program": "${workspaceFolder}/bin/main",
             "preLaunchTask": "build", // THIS IS IMPORTANT
+            // "initCommands": [ // add commands to send to the debugger (LLDB)
+              //   "settings set target.process.follow-fork-mode child"
+              // ],
         }
     ]
 }
