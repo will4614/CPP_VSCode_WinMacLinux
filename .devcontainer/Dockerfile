@@ -1,4 +1,5 @@
 FROM mcr.microsoft.com/devcontainers/cpp:0-debian-11
+# https://github.com/microsoft/vscode-dev-containers/tree/main/containers/debian
 
 ARG REINSTALL_CMAKE_VERSION_FROM_SOURCE="none"
 
